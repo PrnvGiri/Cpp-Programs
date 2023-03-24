@@ -1,3 +1,4 @@
+//Just basic syntax of using a class and object in c++
 #include<iostream>
 using namespace std;
 class BCA
