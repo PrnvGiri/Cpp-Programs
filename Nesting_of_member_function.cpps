@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+class ADD 
+{
+    int a,b;
+    public:
+    void getdata()
+    {
+        cout<<"Enter Your Two numbers to add"<<endl;
+        cin>>a>>b;
+    }
+    int add()
+    {
+        int c = a+b;
+        return c;
+    }
+    void show()
+    {
+        cout<<add();
+    }
+};
+int main()
+{
+    ADD v;
+    v.getdata();
+    v.show();
+}
