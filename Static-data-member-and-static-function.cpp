@@ -9,29 +9,28 @@ class cricket
 {
    static int x,y;
     public:
-   static void getdata();
-   
-     static void display();
-   
-    
-};
- int cricket::x;
- int cricket::y;
- void cricket::getdata()
+   static void getdata()  
     {
         cout<<"Team A Score"<<endl;
         cin>>x;
         cout<<"Team B Score till now"<<endl;
         cin>>y;
     }
-    void cricket::display()
+     static void display()
     {
-        cout<<"Team B need "<<(x+1)-y<<" more Runs to win";
+        if(y<x)
+            {
+                 cout<<"Team B need "<<(x+1)-y<<" more Runs to win";
+            }
+        else
+        cout<<"Team B has already won by scoring "<<y<<" runs";
     }
-
-
+};
+int cricket::x;
+int cricket::y;
 int main()
 {
    cricket::getdata();
    cricket::display();
 }
+
