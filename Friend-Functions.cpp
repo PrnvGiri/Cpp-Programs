@@ -24,3 +24,4 @@ int main() {
     BCA result = add(num1, num2);
     result.display();
     return 0;
+}
