@@ -34,7 +34,11 @@ class sum
 int main()
 {
     int a,b;
-    sum ob,ob1(a,b);
-    ob.display();
+  {  sum ob;
+   ob.display();}
+  sum ob1(a,b);
     ob1.display();
+   
+    sum ob2(ob1);
+    ob2.display();
 }
