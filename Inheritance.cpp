@@ -29,7 +29,7 @@ class truck: public car
     {
         cout<<"Trucks will have "<<wheels<<" with the company named "<< name<<" With the starting price of "<<price<<" Lacs"<<endl;
     }
-};s
+};
 int main()
 {
  Vehicles ob;
